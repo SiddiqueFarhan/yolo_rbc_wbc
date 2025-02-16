@@ -3,7 +3,7 @@ from PIL import Image
 from ultralytics import YOLO
 
 # Load the YOLO model variants
-model = YOLO("medical.pt") 
+model = YOLO("yolo11s.pt") 
 
 st.title("YOLO Object Detection by Farhan")
 st.write("Upload an image to detect objects:")
